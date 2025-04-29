@@ -1,8 +1,8 @@
 <?php
     setcookie("userid", "", time() - 3600);
 
-    echo `
+    echo "
     <script>
         location.href = 'ex3_4_cookie_page.php;
-    </script>`;
+    </script>";
 ?>
